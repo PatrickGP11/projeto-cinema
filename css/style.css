@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: white;
+}
+
+body {
+    background-color: black;
+}
+
+.cabecalho {
+    max-width: 1180px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px;
+    gap: 24px;
+    margin: auto;
+    border-bottom: black solid 1px;
+
+    & .navbar {
+        display: flex;
+        gap: 8px;
+
+    & a {
+
+    }
+    }
+}
+
+.home {
+    max-width: 1180px;
+    margin: auto;
+    padding: 64px 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cartaz {
+    max-width: 1180px;
+    margin: auto;
+    padding: 64px 32px;
+
+    & .titulo {
+        margin-bottom: 48px;
+    }
+
+    & .cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 48px;
+
+        & .card {
+            width: 340px;
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+            padding: 24px;
+            border-radius: 8px;
+            border: black solid 1px;
+
+            & .conteudo {
+
+                & h2 {
+                    margin-bottom: 16px;
+                }
+
+                & p {
+                    color: rgba(255, 255, 255, 0.7);
+                }
+            }
+        }
+    }
+}
+
+.em breve {
+    max-width: 1180px;
+    margin: auto;
+    padding: 64px 32px;
+
+    & .titulo {
+
+    }
+
+    & .cards{
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+
+        & .card {
+            border: #000 solid 1px;
+            border-radius: 8px;
+            display: flex;
+            padding: 24px;
+            gap: 24px;
+
+            & .conteudo {
+
+                & .sinopse {
+                }
+
+                & button {
+                    padding: 12px;
+                    background-color:#000
+                }
+
+                }
+            }
+        }
+    }
